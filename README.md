@@ -8,7 +8,7 @@ To simulate and synthesis full subtractor using vivado.
 
 vivado 2023.2 software.
 
-# Procedure:
+# PROCEDURE:
 
 STEP:1 Start the vivado software, Select and Name the New project.
 
@@ -25,7 +25,7 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 STEP:7 compare the output with truth table.
 
 
-# Truth Table and Circuit Diagram
+# TRUTH TABLE AND CIRCUIT DIAGRAM
 
 ![image](https://github.com/RESMIRNAIR/FULL_SUBTRACTOR/assets/154305926/351addef-f7bb-4862-9817-616a41b4c882)
 
@@ -33,7 +33,7 @@ STEP:7 compare the output with truth table.
 
 ![image](https://github.com/RESMIRNAIR/FULL_SUBTRACTOR/assets/154305926/7d480140-153a-4a7e-a6d2-5323c6bd4974)
 
-# verilog code:
+# VERILOG CODE:
 
 module full_sub(a,b,bin,diff,borrow);
 
@@ -55,10 +55,10 @@ and g5(w3,~w1,bin);
 
 endmodule
 
-# output:
+# OUTPUT:
 
 <img width="1280" alt="fs" src="https://github.com/teja2134/FULL_SUBTRACTOR/assets/161149578/7e2f19c0-2e4a-4216-b554-5ee3a3bf330e">
 
-# Result:
+# RESULT:
 
 Thus the verilog program for full subtractor has been simulated and verified successfully.
